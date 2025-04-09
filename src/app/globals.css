@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Underdog&display=swap');
+
+/* =============== Base Styling =============== */
+body {
+  background-color: #ffffff;
+  font-family: 'Underdog', cursive;
+  margin: 0;
+  padding: 0;
+  color: #111;
+  line-height: 1.6;
+}
+
+/* =============== Navbar =============== */
+.navbar {
+  background-color: #111;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+  border-bottom: 2px solid #333;
+  transition: background-color 0.3s ease;
+}
+
+.navbar:hover {
+  background-color: #222;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+.navbar-brand,
+.nav-link {
+  color: #0e0c1b !important;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+  font-family: 'Underdog', cursive;
+}
+
+.nav-link:hover {
+  color: #0c2323 !important;
+  text-shadow: 0 0 6px rgba(0, 255, 255, 0.5);
+}
+
+/* =============== Card Styling =============== */
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  font-family: 'Underdog', cursive;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* =============== Buttons =============== */
+.btn-primary {
+  background-color: #111;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 18px;
+  border-radius: 6px;
+  border: none;
+  transition: background-color 0.3s ease, box-shadow 0.3s, transform 0.2s;
+  font-family: 'Underdog', cursive;
+}
+
+.btn-primary:hover {
+  background-color: #222;
+  color: #00ffff;
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+}
+
+/* =============== Headings & Links =============== */
+h1, h2, h3, h4, h5, h6 {
+  color: #111;
+  font-family: 'Underdog', cursive;
+}
+
+a {
+  color: #111;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-family: 'Underdog', cursive;
+}
+
+a:hover {
+  color: #00aaaa;
+  text-decoration: underline;
+}
+
+/* =============== About Section Fix =============== */
+.about, .about * {
+  font-family: 'Underdog', cursive !important;
+}
